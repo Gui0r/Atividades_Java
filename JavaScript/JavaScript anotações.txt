@@ -1,0 +1,81 @@
+AULA JAVASCRIPT DKJOFOSAJFJAEDFASDEFA
+
+var (variavel generica)
+let (variavel mutavel)
+const (variavel constante)
+
++ = soma
+- = subtração
+/ = divisão
+* = multipliçação
+% = resto da divisão
+
+=== Verificar se as variaveis são iguais
+!== Verificar se as variaveis são diferentes
+> e >= verificar se as variaveis são maior e maior igual
+< e <= verificar se as variaveis são menor e menor igual
+
+&& Tudo que tiver falso sera falso a não ser verdadeiro + verdadeiro
+|| Tudo que tiver verdadeiro sera verdadeiro a não ser falso + falso
+
+usar resultado += 20 / ao inves de resultado = resultado + 20
+
+	          
+Exemplos do código
+
+Codigo Extenso				Codigo Resumido
+
+let num1 = 4				let soma = 3 + 4		
+let num2 = 3				alert(soma)
+alert(soma = num1 + num2)
+					let soma2 = 3 * 5 / 2
+let num3 = 3				alert(soma2)
+let num4 = 5
+let soma1 = num3 * num4			let soma3 = 4 - 5 * -1
+alert(soma1 = soma1 / 2)		alert(soma3)
+
+let num5 = 5				let soma4 = 234 % 5
+let num6 = 4				alert(soma4)
+let soma2 = 4 - 5
+alert(soma2 = soma2 * -1)		let a = Number(prompt("Insira um valor: "))
+					let b = Number(prompt("Insira outro valor: "))								
+let num7 = 234				alert(a+b)
+let num8 = 5
+alert(soma3 = 234 % 5)
+
+let a = true
+let b = false
+let c = true
+alert(a || b) //true
+alert(b || c) //true
+alert(a || c) //true
+alert(a || b || c) //true
+
+let a = true
+let b = false
+let c = true
+alert(a && b) //false
+alert(b && c) //false
+alert(a && c) //true
+alert(a && b && c) //false
+
+let num1 = 10
+let num2 = 20
+alert(num1 === num2)
+alert(num3 !== num4)
+alert(num5 > num6)
+alert(num7 < num8)
+
+let Nome = prompt("Digite seu nome: ")
+let atual = Number(prompt("Em que ano estamos"))
+let nasc = Number(prompt("Em que ano você nasceu"))
+let idade
+alert(`Seu nome é: ${Nome}`)
+alert(`Sua idade é: ${idade = atual - nasc}`)
+alert(`"É maior de idade? ${idade > 17}`)
+alert(2050 - nasc)
+
+
+
+
+
